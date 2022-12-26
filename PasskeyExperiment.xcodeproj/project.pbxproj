@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A6D6DEB52959634F00113D20 /* PasskeyExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEB42959634F00113D20 /* PasskeyExperimentApp.swift */; };
-		A6D6DEB72959634F00113D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEB62959634F00113D20 /* ContentView.swift */; };
+		A6D6DEB72959634F00113D20 /* SignUpWithPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEB62959634F00113D20 /* SignUpWithPasswordView.swift */; };
 		A6D6DEB92959635000113D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D6DEB82959635000113D20 /* Assets.xcassets */; };
 		A6D6DEBC2959635000113D20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D6DEBB2959635000113D20 /* Preview Assets.xcassets */; };
 		A6D6DEC62959635100113D20 /* PasskeyExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEC52959635100113D20 /* PasskeyExperimentTests.swift */; };
 		A6D6DED02959635100113D20 /* PasskeyExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DECF2959635100113D20 /* PasskeyExperimentUITests.swift */; };
 		A6D6DED22959635100113D20 /* PasskeyExperimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DED12959635100113D20 /* PasskeyExperimentUITestsLaunchTests.swift */; };
+		A6D6DEE02959651700113D20 /* GlobalStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEDF2959651700113D20 /* GlobalStrings.swift */; };
+		A6D6DEE22959707600113D20 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEE12959707600113D20 /* TitleView.swift */; };
+		A6D6DEE4295970AD00113D20 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEE3295970AD00113D20 /* ButtonView.swift */; };
+		A6D6DEE6295970DA00113D20 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEE5295970DA00113D20 /* TextFieldView.swift */; };
+		A6D6DEE82959710400113D20 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEE72959710400113D20 /* OptionView.swift */; };
+		A6D6DEEA2959736700113D20 /* SignInWithPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEE92959736700113D20 /* SignInWithPasswordView.swift */; };
+		A6D6DEEC295977E700113D20 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEEB295977E700113D20 /* MainCoordinator.swift */; };
+		A6D6DEF02959842A00113D20 /* SignInWithPassKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEEF2959842A00113D20 /* SignInWithPassKeyView.swift */; };
+		A6D6DEF4295988F600113D20 /* SignUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEF3295988F600113D20 /* SignUpDelegate.swift */; };
+		A6D6DEF62959892D00113D20 /* SignInDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEF52959892D00113D20 /* SignInDelegate.swift */; };
+		A6D6DEF829598ADF00113D20 /* SignUpWithPasskeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEF729598ADF00113D20 /* SignUpWithPasskeyView.swift */; };
+		A6D6DEFA2959A51E00113D20 /* SecureInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEF92959A51E00113D20 /* SecureInputField.swift */; };
+		A6D6DEFD2959AD8B00113D20 /* HomeScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEFC2959AD8B00113D20 /* HomeScreenCoordinator.swift */; };
+		A6D6DF002959B2B000113D20 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DEFF2959B2B000113D20 /* ProfileView.swift */; };
+		A6D6DF032959B85C00113D20 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DF022959B85C00113D20 /* ThemeColor.swift */; };
+		A6D6DF062959BFC600113D20 /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6DF052959BFC600113D20 /* MyAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,7 @@
 /* Begin PBXFileReference section */
 		A6D6DEB12959634F00113D20 /* PasskeyExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasskeyExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D6DEB42959634F00113D20 /* PasskeyExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeyExperimentApp.swift; sourceTree = "<group>"; };
-		A6D6DEB62959634F00113D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6D6DEB62959634F00113D20 /* SignUpWithPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithPasswordView.swift; sourceTree = "<group>"; };
 		A6D6DEB82959635000113D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6D6DEBB2959635000113D20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6D6DEC12959635100113D20 /* PasskeyExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasskeyExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,22 @@
 		A6D6DECB2959635100113D20 /* PasskeyExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasskeyExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D6DECF2959635100113D20 /* PasskeyExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeyExperimentUITests.swift; sourceTree = "<group>"; };
 		A6D6DED12959635100113D20 /* PasskeyExperimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeyExperimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6D6DEDF2959651700113D20 /* GlobalStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStrings.swift; sourceTree = "<group>"; };
+		A6D6DEE12959707600113D20 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		A6D6DEE3295970AD00113D20 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A6D6DEE5295970DA00113D20 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		A6D6DEE72959710400113D20 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		A6D6DEE92959736700113D20 /* SignInWithPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithPasswordView.swift; sourceTree = "<group>"; };
+		A6D6DEEB295977E700113D20 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A6D6DEEF2959842A00113D20 /* SignInWithPassKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithPassKeyView.swift; sourceTree = "<group>"; };
+		A6D6DEF3295988F600113D20 /* SignUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDelegate.swift; sourceTree = "<group>"; };
+		A6D6DEF52959892D00113D20 /* SignInDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInDelegate.swift; sourceTree = "<group>"; };
+		A6D6DEF729598ADF00113D20 /* SignUpWithPasskeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithPasskeyView.swift; sourceTree = "<group>"; };
+		A6D6DEF92959A51E00113D20 /* SecureInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputField.swift; sourceTree = "<group>"; };
+		A6D6DEFC2959AD8B00113D20 /* HomeScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCoordinator.swift; sourceTree = "<group>"; };
+		A6D6DEFF2959B2B000113D20 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A6D6DF022959B85C00113D20 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		A6D6DF052959BFC600113D20 /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +126,11 @@
 		A6D6DEB32959634F00113D20 /* PasskeyExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				A6D6DF012959B84C00113D20 /* Theme */,
+				A6D6DEF22959872100113D20 /* HelperViews */,
+				A6D6DEF12959870A00113D20 /* MainCoordinator */,
+				A6D6DEDE295964F100113D20 /* Strings */,
 				A6D6DEB42959634F00113D20 /* PasskeyExperimentApp.swift */,
-				A6D6DEB62959634F00113D20 /* ContentView.swift */,
 				A6D6DEB82959635000113D20 /* Assets.xcassets */,
 				A6D6DEBA2959635000113D20 /* Preview Content */,
 			);
@@ -125,6 +160,91 @@
 				A6D6DED12959635100113D20 /* PasskeyExperimentUITestsLaunchTests.swift */,
 			);
 			path = PasskeyExperimentUITests;
+			sourceTree = "<group>";
+		};
+		A6D6DEDE295964F100113D20 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DEDF2959651700113D20 /* GlobalStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		A6D6DEED295983BF00113D20 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DEB62959634F00113D20 /* SignUpWithPasswordView.swift */,
+				A6D6DEF3295988F600113D20 /* SignUpDelegate.swift */,
+				A6D6DEF729598ADF00113D20 /* SignUpWithPasskeyView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A6D6DEEE295983CB00113D20 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DEE92959736700113D20 /* SignInWithPasswordView.swift */,
+				A6D6DEEF2959842A00113D20 /* SignInWithPassKeyView.swift */,
+				A6D6DEF52959892D00113D20 /* SignInDelegate.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		A6D6DEF12959870A00113D20 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DEFB2959AD7500113D20 /* HomeScreen */,
+				A6D6DEED295983BF00113D20 /* SignUp */,
+				A6D6DEEE295983CB00113D20 /* SignIn */,
+				A6D6DEEB295977E700113D20 /* MainCoordinator.swift */,
+			);
+			path = MainCoordinator;
+			sourceTree = "<group>";
+		};
+		A6D6DEF22959872100113D20 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DEE5295970DA00113D20 /* TextFieldView.swift */,
+				A6D6DEE12959707600113D20 /* TitleView.swift */,
+				A6D6DEE3295970AD00113D20 /* ButtonView.swift */,
+				A6D6DEE72959710400113D20 /* OptionView.swift */,
+				A6D6DEF92959A51E00113D20 /* SecureInputField.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		A6D6DEFB2959AD7500113D20 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DF042959BFB100113D20 /* MyAccount */,
+				A6D6DEFE2959B29C00113D20 /* Profile */,
+				A6D6DEFC2959AD8B00113D20 /* HomeScreenCoordinator.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		A6D6DEFE2959B29C00113D20 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DEFF2959B2B000113D20 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A6D6DF012959B84C00113D20 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DF022959B85C00113D20 /* ThemeColor.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A6D6DF042959BFB100113D20 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6DF052959BFC600113D20 /* MyAccount.swift */,
+			);
+			path = MyAccount;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +377,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D6DEB72959634F00113D20 /* ContentView.swift in Sources */,
+				A6D6DEFD2959AD8B00113D20 /* HomeScreenCoordinator.swift in Sources */,
+				A6D6DEF4295988F600113D20 /* SignUpDelegate.swift in Sources */,
+				A6D6DEE82959710400113D20 /* OptionView.swift in Sources */,
+				A6D6DEFA2959A51E00113D20 /* SecureInputField.swift in Sources */,
+				A6D6DEF62959892D00113D20 /* SignInDelegate.swift in Sources */,
+				A6D6DEF02959842A00113D20 /* SignInWithPassKeyView.swift in Sources */,
+				A6D6DEEC295977E700113D20 /* MainCoordinator.swift in Sources */,
+				A6D6DEEA2959736700113D20 /* SignInWithPasswordView.swift in Sources */,
+				A6D6DF032959B85C00113D20 /* ThemeColor.swift in Sources */,
+				A6D6DF062959BFC600113D20 /* MyAccount.swift in Sources */,
+				A6D6DEB72959634F00113D20 /* SignUpWithPasswordView.swift in Sources */,
 				A6D6DEB52959634F00113D20 /* PasskeyExperimentApp.swift in Sources */,
+				A6D6DEE6295970DA00113D20 /* TextFieldView.swift in Sources */,
+				A6D6DEF829598ADF00113D20 /* SignUpWithPasskeyView.swift in Sources */,
+				A6D6DF002959B2B000113D20 /* ProfileView.swift in Sources */,
+				A6D6DEE4295970AD00113D20 /* ButtonView.swift in Sources */,
+				A6D6DEE02959651700113D20 /* GlobalStrings.swift in Sources */,
+				A6D6DEE22959707600113D20 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
