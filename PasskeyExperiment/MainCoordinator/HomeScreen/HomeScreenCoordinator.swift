@@ -7,23 +7,29 @@
 
 import SwiftUI
 
+protocol HomeScreenCoordinatorDelegate {
+    func onSignOutButtonTap()
+}
+
 struct HomeScreenCoordinator: View {
     let loggedInUsingPasskey: Bool
     let userData: UserData
-    
-    init(loggedInUsingPasskey: Bool, userData: UserData) {
-        self.loggedInUsingPasskey = loggedInUsingPasskey
-        self.userData = userData
-    }
+    @State var delegate: HomeScreenCoordinatorDelegate
 
     var body: some View {
         TabView {
             Text(GlobalStrings.myAccount.value).tabItem {
                 Text(GlobalStrings.myAccount.value)
             }
-            ProfileView(email: userData.email, loggedInUsingPasskey: loggedInUsingPasskey).tabItem {
+            ProfileView(email: userData.email, loggedInUsingPasskey: loggedInUsingPasskey, delegate: self).tabItem {
                 Text(GlobalStrings.profile.value)
             }
         }
+    }
+}
+
+extension HomeScreenCoordinator: ProfileViewDelegate {
+    func onSignOutButtonTap() {
+        delegate.onSignOutButtonTap()
     }
 }

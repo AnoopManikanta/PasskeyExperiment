@@ -23,6 +23,8 @@ enum GlobalStrings {
     case addPasskey
     case addPassword
     case signOut
+    case close
+    case unknownError
     
     
     var value: String {
@@ -57,6 +59,10 @@ enum GlobalStrings {
             return "Add Password"
         case .signOut:
             return "Sign Out"
+        case .close:
+            return "Close"
+        case .unknownError:
+            return "Unknown Error"
         }
     }
 }

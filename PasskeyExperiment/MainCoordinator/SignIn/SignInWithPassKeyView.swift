@@ -27,7 +27,7 @@ struct SignInWithPasskeyView: View {
     // MARK: - Variables
 
     @State var email: String = ""
-    var delegate: SignInDelegate?
+    @State var delegate: SignInDelegate?
 
     // MARK: - Body
     

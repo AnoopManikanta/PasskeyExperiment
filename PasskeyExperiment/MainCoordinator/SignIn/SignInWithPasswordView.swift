@@ -28,7 +28,7 @@ struct SignInWithPasswordView: View {
 
     @State var email: String = ""
     @State var password: String = ""
-    var delegate: SignInDelegate?
+    @State var delegate: SignInDelegate?
     
     // MARK: - Body
     
@@ -49,7 +49,7 @@ struct SignInWithPasswordView: View {
         }.onAppear {
             signInButton.action = { delegate?.onSignUpButtonTap(isPasskey: false) }
             signInWithPasskeyButton.action = { delegate?.onSignInUsingPasskeyButtonTap(isPasskey: false, userData: UserData(email: email, password: nil)) }
-            signInWithPasswordButton.action = { delegate?.onSignInUsingPasswordButtonTap(isPasskey: false, userData: nil) }
+            signInWithPasswordButton.action = { delegate?.onSignInUsingPasswordButtonTap(isPasskey: false, userData: UserData(email: email, password: password)) }
         }
     }
 }

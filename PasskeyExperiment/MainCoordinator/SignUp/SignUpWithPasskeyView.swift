@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SignUpWithPasskeyView: View {
     // MARK: - Views
+
     @State var signInButton: ButtonView = ButtonView(label: .signIn,
                                                      textColor: .black)
     @State var signUpWithPasswordButton: ButtonView = ButtonView(label: .signUpWithPassword,
@@ -23,7 +24,7 @@ struct SignUpWithPasskeyView: View {
                                                                 fontSize: 12)
     // MARK: - Variables
 
-    var delegate: SignUpDelegate? = nil
+    @State var delegate: SignUpDelegate?
     @State var email: String = ""
 
     // MARK: - Body

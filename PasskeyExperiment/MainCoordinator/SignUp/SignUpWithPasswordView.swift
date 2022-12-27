@@ -26,7 +26,7 @@ struct SignUpWithPasswordView: View {
     // MARK: - Variables
 
     @State var email: String = ""
-    @State var delegate: SignUpDelegate
+    @State var delegate: SignUpDelegate?
     @State var password: String = ""
 
     // MARK: - Body
@@ -43,9 +43,9 @@ struct SignUpWithPasswordView: View {
             OptionView(title: .alreadyHaveAnAccount, button: signInButton)
             Spacer()
         }.onAppear {
-            signInButton.action = { delegate.onSignInButtonTap(isPasskey: false) }
-            signUpWithPasskeyButton.action = { delegate.onSignUpUsingPasskeyButtonTap(isPasskey: false, userData: nil) }
-            signUpWithPasswordButton.action = { delegate.onSignUpUsingPasswordButtonTap(isPasskey: false, userData: UserData(email: email, password: password)) }
+            signInButton.action = { delegate?.onSignInButtonTap(isPasskey: false) }
+            signUpWithPasskeyButton.action = { delegate?.onSignUpUsingPasskeyButtonTap(isPasskey: false, userData: nil) }
+            signUpWithPasswordButton.action = { delegate?.onSignUpUsingPasswordButtonTap(isPasskey: false, userData: UserData(email: email, password: password)) }
         }
     }
 }
@@ -59,12 +59,6 @@ struct IsHidden: ViewModifier {
         } else {
             content
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        SignUpWithPasswordView()
     }
 }
 
